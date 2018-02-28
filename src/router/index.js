@@ -13,7 +13,7 @@ export default new Router({
       component: Main
     },
     {
-      path: '/about-us',
+      path: '/about-us/',
       name: 'About',
       component: About
     }

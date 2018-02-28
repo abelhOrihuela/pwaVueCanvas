@@ -4,10 +4,20 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import '@/assets/style.css'
+import '@/assets/css/bootstrap.css'
+import '@/assets/css/animate.css'
+import '@/assets/css/responsive.css'
+import '@/assets/css/swiper.css'
+import '@/assets/css/font-icons.css'
+import '@/assets/css/magnific-popup.css'
+import '@/assets/css/dark.css'
+
 import Page from './components/Page/Page'
+import Menu from './components/Menu/Menu'
 
 Vue.config.productionTip = false
 
+Vue.component('menu-app', Menu)
 Vue.component('page', Page)
 
 /* eslint-disable no-new */
