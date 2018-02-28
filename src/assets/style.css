@@ -6,11 +6,9 @@
 }
 body {
 		min-width: 550px
-
 }
 
-
-header {
+#header {
 		width: 100%;
 		height: 100vh;
 		position: relative;
@@ -18,7 +16,7 @@ header {
 		z-index: 400;
 }
 
-header nav {
+#header nav {
 		height: 100px;
 		width: 100%;
 		position: fixed;
@@ -27,7 +25,7 @@ header nav {
 		z-index: 900;
 }
 
-header nav #logo {
+#header nav #logo {
 		width: 100px;
 		height: 100%;
 		float: left;
@@ -35,11 +33,11 @@ header nav #logo {
 		display: inline-block;
 }
 
-header nav #logo img {
+#header nav #logo img {
 		height: 100px;
 }
 
-header nav #menu {
+#header nav #menu {
 		float: right;
 		height: 100%;
 		list-style: none;
@@ -49,7 +47,7 @@ header nav #menu {
   right:12.5%;
 }
 
-header nav #menu li {
+#header nav #menu li {
 		display: inline-block;
     position: relative;
 		margin: 0 20px;
@@ -59,7 +57,7 @@ header nav #menu li {
 		transition: color .2s
 
 }
-header nav #menu li:after {
+#header nav #menu li:after {
 		/* position:absolute;
 		top:-13px;
 		right:51%;
@@ -72,17 +70,17 @@ header nav #menu li:after {
   	transition: height .2s */
 
 }
-header nav #menu li:hover:after {
+#header nav #menu li:hover:after {
   height:48px
 }
-header nav #menu li:hover {
+#header nav #menu li:hover {
 		color:#257596
 
 }
 
 
 
-header #hero-text {
+#header #hero-text {
 		position: absolute;
 		width: 100%;
 		height: 150px;
@@ -90,27 +88,27 @@ header #hero-text {
 		margin-top: -50px;
 }
 
-header #hero-text h1 {
+#header #hero-text h1 {
 		height: 100px;
 		font-size: 70px;
     font-weight:100;
 		line-height: 100px;
 }
 
-header #hero-text p {
+#header #hero-text p {
 		height: 50px;
 		line-height: 1;
 		font-size: 35px;
 }
 
-header #hero-text h1,
-header #hero-text p {
+#header #hero-text h1,
+#header #hero-text p {
 		margin: 0;
 		text-align: center;
 		overflow: hidden;
 }
 
-header #scroll {
+#header #scroll {
 		width: 30px;
 		height: 30px;
 		position: absolute;
@@ -424,4 +422,35 @@ footer {
     max-width:100%!important;
     width:100%!important;
   }
+}
+
+
+#header{
+	background-color: gray !important;
+	/* background-image: url('everest.jpg'); */
+	/* background-image: url('https://wallpaperscraft.com/image/road_rocks_night_87719_1920x1080.jpg'); */
+	/* background-image: url('https://wallpaperscraft.com/image/starry_sky_stars_space_galaxy_118510_1920x1080.jpg'); */
+	background-image: url('https://wallpaperscraft.com/image/road_marking_clouds_dawn_119319_1920x1080.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* opacity: .8 */
+}
+#header nav{
+	background-color: white !important;
+}
+
+#hero-text h1{
+	color: white;
+	font-size: 4vw !important;
+	text-shadow: 5px 5px 10px black;
+	font-weight: bold;
+}
+#hero-text p{
+	color: white;
+	text-shadow: 2px 2px 15px black;
+}
+
+.headerless{
+	background-color: red !important;
+	background-repeat: none;
 }
