@@ -12594,13 +12594,13 @@ label.checkbox { padding-left: 20px; }
 	38. Page Transitions
 -----------------------------------------------------------------*/
 
-/*body:not(.no-transition) #wrapper,
+body:not(.no-transition) #wrapper,
 .animsition-overlay {
 	position: relative;
-	opacity: 0;
+	/*opacity: 0;*/
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
-}*/
+}
 
 .css3-spinner {
 	position: fixed;
@@ -13615,8 +13615,4 @@ label.checkbox { padding-left: 20px; }
 	transform: none!important;
 	margin:0!important;
 	padding:0!important
-}
-#slide_1{
-	 background-image: url('everest.jpg'); 
-
 }
