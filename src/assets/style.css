@@ -13616,3 +13616,12 @@ body:not(.no-transition) #wrapper,
 	margin:0!important;
 	padding:0!important
 }
+
+
+#slider1{
+	background-image: url('../assets/images/slider/swiper/1.jpg') !important;
+	background-color: 'red'
+}
+#primary-menu-trigger{
+	background-color: 'black' !important
+}

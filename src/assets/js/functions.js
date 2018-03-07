@@ -8,7 +8,6 @@ $.fn.doOnce = function( func ) {
 	this.length && func.apply( this );
 	return this;
 }
-alert('*******************************************************')
 if( $().infinitescroll ) {
 
 	$.extend($.infinitescroll.prototype,{
